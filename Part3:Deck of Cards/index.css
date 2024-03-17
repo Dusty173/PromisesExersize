@@ -1,0 +1,27 @@
+body{
+    background-color: green;
+}
+
+button{
+    padding: 10px;
+    margin: 0 auto;
+    background-color: grey;
+    border-radius: 1rem;
+    border-style: outset;
+}
+
+button:hover{
+    background-color: darkblue;
+    color: white;
+}
+
+#card {
+    margin-top: 20px;
+}
+  
+#card > img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
